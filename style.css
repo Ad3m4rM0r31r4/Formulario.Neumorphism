@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vh;
+    overflow: hidden;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background-color: #c07530;
+}
+
+.login-div {
+    width: 430px;
+    height: 700px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background-color: #c07530;
+    box-shadow: 13px 13px 20px #a36329,
+              -13px -13px 20px #d28033;
+}
+
+.logo {
+    background: url(doguinho.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px #d28033,
+                0px 0px 0px 5px #c07530, 
+                8px 8px 15px #a36329,
+                -8px -8px 15px #c07530;
+}
+
+.title {
+    color: #f3eae8;
+    text-shadow: 2px 2px 10px #2a2725,
+                 -2px -2px 20px #2a2725;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+}
+
+.subtítulo {
+    color: #f3eae8;
+    text-shadow: 2px 2px 10px #2a2725,
+                 -2px -2px 20px #2a2725;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 7px;
+    letter-spacing: 3px;
+}
+
+.fields {
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+}
+
+.fields input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    color: #2a2725;
+    padding: 20px 10px 20px 5px;
+}
+
+.usuário,
+.senha {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #a36329,
+                inset -8px -8px 8px #d28033;
+}
+
+.fields svg {
+    height: 22px;
+    margin: 0 10px -3px 25px;
+}
+
+.signin-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+    color: #c07530;
+    background-color: #d0b79f;
+    box-shadow: 10px 10px 20px #8c5522,
+              -10px -10px 20px #e88d37;
+    transition: all 0.5s;
+}
+
+.signin-button:hover {
+    background-color: #d7d7d7;
+}
+
+.signin-button:active {
+    background-color: #e88d37;
+}
+
+.link {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.link a {
+    text-decoration: none;
+    color: #746565;
+    font-size: 15px;
+}
+
