@@ -1,11 +1,11 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    height: 100vh;
-    width: 100vh;
+    min-height: 100vh;
     overflow: hidden;
     font-family: "Lato", sans-serif;
     font-weight: 700;
@@ -23,7 +23,7 @@ body {
     border-radius: 40px;
     background-color: #c07530;
     box-shadow: 13px 13px 20px #a36329,
-              -13px -13px 20px #d28033;
+        -13px -13px 20px #d28033;
 }
 
 .logo {
@@ -34,15 +34,15 @@ body {
     border-radius: 50%;
     margin: 0 auto;
     box-shadow: 0px 0px 2px #d28033,
-                0px 0px 0px 5px #c07530, 
-                8px 8px 15px #a36329,
-                -8px -8px 15px #c07530;
+        0px 0px 0px 5px #c07530,
+        8px 8px 15px #a36329,
+        -8px -8px 15px #c07530;
 }
 
 .title {
     color: #f3eae8;
     text-shadow: 2px 2px 10px #2a2725,
-                 -2px -2px 20px #2a2725;
+        -2px -2px 20px #2a2725;
     text-align: center;
     font-size: 28px;
     padding-top: 24px;
@@ -52,7 +52,7 @@ body {
 .subtítulo {
     color: #f3eae8;
     text-shadow: 2px 2px 10px #2a2725,
-                 -2px -2px 20px #2a2725;
+        -2px -2px 20px #2a2725;
     text-align: center;
     font-size: 15px;
     padding-top: 7px;
@@ -78,7 +78,7 @@ body {
     margin-bottom: 30px;
     border-radius: 25px;
     box-shadow: inset 8px 8px 8px #a36329,
-                inset -8px -8px 8px #d28033;
+        inset -8px -8px 8px #d28033;
 }
 
 .fields svg {
@@ -99,7 +99,7 @@ body {
     color: #c07530;
     background-color: #d0b79f;
     box-shadow: 10px 10px 20px #8c5522,
-              -10px -10px 20px #e88d37;
+        -10px -10px 20px #e88d37;
     transition: all 0.5s;
 }
 
@@ -121,4 +121,3 @@ body {
     color: #746565;
     font-size: 15px;
 }
-
